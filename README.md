@@ -42,6 +42,11 @@ python ECDSA.py
     This implementation does not rely on any external libraries other than Python's standard hashlib and random modules.
    
 ---
+Private Key: A randomly generated key unique to the session.
+Public Key: The corresponding public key computed from the private key.
+Message: The message to be signed and verified.
+Signature: A pair of integers (r, s) representing the ECDSA signature.
+Verification: Confirms if the signature is valid or not for the given message.
 
 ### ** Example Outputs**
 Provide examples of the script’s output to give users an idea of what to expect. For instance:
@@ -60,4 +65,6 @@ Verification: okeye
 
 Message: i am behzad!
 Verification: invalid
+
+
 
